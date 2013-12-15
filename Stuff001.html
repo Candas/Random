@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+<meta charset="utf-16">
+<title>MenÃƒÂº</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+	
+<?php echo "PHP"; ?>
+<div id="CuerpoMenu">
+<script>
+	
+	document.writeln("JAVASCRIPT");
+	document.writeln("<h1>Generador de Menus</h1>");
+	var x="Especialidad: ";
+		var nombre;
+		var i=0;
+	while(true) {
+		i++;
+		nombre=prompt("Escribe el plato "+i);		
+		if(nombre=="exit"){
+			break;
+		}
+		document.writeln("<li>"+x+" "+i+"\n"+nombre+"</li>");
+	};
+	document.writeln("<h2>MenÃº generado por ACS Menu generator 2013<h2>");
+	
+</script>
+</div>
+</body>
+</html>
